@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Prathosh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: #0f051e;
+      color: #fff;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 80px 0;
+    }
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 40px;
+      background: linear-gradient(to left, #4200fc, #f901fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .project-card {
+      background: #1c0f3a;
+      padding: 25px;
+      border-radius: 12px;
+      border: 2px solid #4200fc;
+      box-shadow: 0 0 15px rgba(249, 1, 252, 0.15);
+      transition: 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 25px rgba(249, 1, 252, 0.4);
+    }
+    .project-card h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #f901fc;
+    }
+    .project-card p {
+      line-height: 1.5;
+      font-size: 15px;
+    }
+    .project-card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 8px 15px;
+      border-radius: 25px;
+      background: linear-gradient(to left, #4200fc, #f901fc);
+      color: #fff;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .back-link {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .back-link a {
+      color: #ccc;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Projects</h1>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>To-Do App (MERN Stack)</h3>
+        <p>
+          Built a full-stack to-do app using React, Node.js, Express, and MongoDB with JWT-based user authentication, CRUD features, and responsive design.
+        </p>
+        <a href="https://github.com/Prathosh-HUB/todo-mern-app" target="_blank">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          Designed and developed a personal portfolio website using HTML, CSS, and JavaScript with smooth animations and responsive layout. Hosted via GitHub Pages.
+        </p>
+        <a href="https://prathosh-hub.github.io" target="_blank">Visit Site</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Multi-Cloud Resource Sharing System</h3>
+        <p>
+          Java-based project with VM provisioning, secure decentralized resource sharing using PG-CAN protocol and DOPS scheduling. Improved throughput by 60%.
+        </p>
+        <a href="#">GitHub Link</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Responsive Landing Page</h3>
+        <p>
+          Created a modern landing page using Bootstrap 5 and custom CSS, optimized for mobile and desktop viewing with scroll animations.
+        </p>
+        <a href="#">Preview</a>
+      </div>
+
+    </div>
+
+    <div class="back-link">
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </div>
+
+</body>
+</html>
